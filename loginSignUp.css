@@ -1,0 +1,24 @@
+.colorWhite{
+    color: white !important;
+  }
+  .colorBlue{
+    color: rgba(27, 27, 50, 0.8) !important;
+  }
+  .bgcolorBlue{
+    background-color: rgba(27, 27, 50, 0.8) !important;
+  }
+  .bgSignInImage{
+    
+    background-image:
+    url("assets/sign_in_background2.jpg");
+   background-size: cover;
+   background-position: center;
+
+  }
+
+  .bgLogInImage{
+    background-image:
+    url("assets/sign_in_background.jpg");
+   background-size: cover;
+   background-position: center;
+  }

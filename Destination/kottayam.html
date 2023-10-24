@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kottayam</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="district.css" />
+  </head>
+  <body>
+    <header>
+      <!-- START OF NAVIGATION BAR  -->
+
+      <nav class="navbar navbar-expand-md navbar-dark bd-navbar bg-success">
+        <div class="container-fluid position-relative">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#bdNavbar"
+            aria-controls="bdNavbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="navbar-collapse collapse" id="bdNavbar">
+            <ul
+              class="navbar-nav flex-row flex-wrap bd-navbar-nav pt-2 py-md-0"
+            >
+              <li class="nav-item col-6 col-md-auto">
+                <a class="nav-link p-2" aria-current="page" href="../index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item col-6 col-md-auto">
+                <a class="nav-link p-2 " href="../destination.html"
+                  >Destination</a
+                >
+              </li>
+              <li class="nav-item col-6 col-md-auto">
+                <a class="nav-link p-2" href="../login.html">Log In</a>
+              </li>
+              <li class="nav-item col-6 col-md-auto">
+                <a class="nav-link p-2" href="../signup.html">Sign Up</a>
+              </li>
+              <li class="nav-item col-7 col-md-auto">
+                <a class="nav-link p-2 active" href="#">Kottayam</a>
+              </li>
+            </ul>
+            <hr class="d-md-none text-white-50" />
+            <ul class="navbar-nav flex-row flex-wrap ms-md-auto">
+              <li class="nav-item col-6 col-md-auto">
+                <a class="nav-link p-2" href="#" target="_blank" rel="noopener">
+                  <img src="../assets/icon/facebook.svg" alt="facebook logo" />
+                  <small class="d-md-none ms-2">Facebook</small>
+                </a>
+              </li>
+              <li class="nav-item col-6 col-md-auto">
+                <a class="nav-link p-2" href="#" target="_blank" rel="noopener">
+                  <img src="../assets/icon/twitter.svg" alt="twitter logo" />
+                  <small class="d-md-none ms-2">Twitter</small>
+                </a>
+              </li>
+              <li class="nav-item col-6 col-md-auto">
+                <a class="nav-link p-2" href="#" target="_blank" rel="noopener">
+                  <img
+                    src="../assets/icon/instagram.svg"
+                    alt="instagram logo"
+                  />
+                  <small class="d-md-none ms-2">Instagram</small>
+                </a>
+              </li>
+              <li class="nav-item col-6 col-md-auto">
+                <a class="nav-link p-2" href="#" target="_blank" rel="noopener">
+                  <img src="../assets/icon/youtube.svg" alt="youtube logo" />
+                  <small class="d-md-none ms-2">Youtube</small>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- END OF NAVIGATION BAR  -->
+
+      <!-- START OF CAROUSEL  -->
+      <div class="container-fluid g-0">
+        <div class="row-fluid">
+          <div class="col-12">
+            <section class="banner bg-dark position-relative">
+              <!-- Carousel  -->
+              <div
+                id="carouselExampleDark"
+                class="carousel carousel-dark slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                </div>
+                <div class="carousel-inner">
+                  <div
+                    class="carousel-item mycarousel-zoom active"
+                    data-bs-interval="3000"
+                  >
+                    <!-- change Carousel 1 -->
+                    <img
+                      src="../assets/travelDestination/Kottayam/kottayam_Carousel1.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                    <div class="carousel-caption d-md-block text-white">
+                      <h2 class="text-end">Kottayam</h2>
+                    </div>
+                  </div>
+                  <div
+                    class="carousel-item mycarousel-zoom"
+                    data-bs-interval="3000"
+                  >
+                    <!-- change Carousel 2 -->
+                    <img
+                      src="../assets/travelDestination/Kottayam/kottayam_Carousel2.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+
+                    <div class="carousel-caption d-md-block text-white">
+                      <h2 class="text-end">Kottayam</h2>
+                    </div>
+                  </div>
+                  <div
+                    class="carousel-item mycarousel-zoom"
+                    data-bs-interval="3000"
+                  >
+                    <!-- change Carousel 3 -->
+                    <img
+                      src="../assets/travelDestination/Kottayam/kottayam_Carousel3.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+
+                    <div class="carousel-caption d-md-block text-white">
+                      <h2 class="text-end">Kottayam</h2>
+                    </div>
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleDark"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleDark"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+              <img
+                class="position-absolute top-0 start-0 bg-white rounded"
+                style="width: 100px"
+                src="../assets/keralaTourismLogo.png"
+                alt="logo"
+              />
+            </section>
+            <!-- END OF SECTION -->
+          </div>
+          <!-- END OF COLOUMN  -->
+        </div>
+        <!-- END OF ROW -->
+      </div>
+      <!-- END OF CONTAINER  -->
+    </header>
+    <!-- END OF HEADER -->
+
+    <!-- START OF MAIN -->
+    <main class="mainClass">
+      <div class="container mt-3">
+        <div class="row bg-warning text-center">
+          <div class="col">
+            <h2>Top Sights</h2>
+            <h6>Based on traveller visits and local insights</h6>
+          </div>
+        </div>
+        <!-- END OF FIRST ROW  -->
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <!-- START OF COLUMN 1 -->
+
+          <div class="card-columns">
+            <!-- START OF CARD -->
+            <div class="card mb-3 mt-3">
+              <!-- CHANGE IMAGE SRC-->
+              <img
+                src="../assets/travelDestination/Kottayam/kottayam_ThirunakkaraMahadeva.jpg"
+                class="card-img-top"
+                alt="Thirunakkara Mahadeva"
+              />
+              <div class="card-body rounded">
+                <!-- CHANGE CARD TEXT -->
+                <h5 class="card-title">Thirunakkara Mahadeva</h5>
+                <div class="d-flex mb-2">
+                 
+                  <p class="h6 ms-2 my-auto me-auto"></p>
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-circle"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseExample11"
+                    aria-expanded="true"
+                    aria-controls="collapseExample11"
+                  >
+                    <img
+                      src="../assets/icon/chevron-down.svg"
+                      alt="drop down"
+                    />
+                  </button>
+                </div>
+                <p class="card-text">Hindu temple with performances & murals</p>
+                <div class="collapse" id="collapseExample11">
+                  <p class="card-text">
+                    Hindu temple with performances & murals
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- END OF CARD -->
+
+            <!-- START OF CARD -->
+            <div class="card mb-3 mt-3">
+              <!-- CHANGE IMAGE SRC-->
+              <img
+                src="../assets/travelDestination/Kottayam/kottayam_ThazhathangadyJumaMasjid.jpg"
+                class="card-img-top"
+                alt="Thazhathangady Juma Masjid"
+              />
+              <div class="card-body rounded">
+                <!-- CHANGE CARD TEXT -->
+                <h5 class="card-title">Thazhathangady Juma Masjid</h5>
+                <div class="d-flex mb-2">
+                  
+                  <p class="h6 ms-2 my-auto me-auto"></p>
+                  <!-- CHANGE COLLAPSEEXAMPLE VALUE TWICE-->
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-circle"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseExample12"
+                    aria-expanded="true"
+                    aria-controls="collapseExample12"
+                  >
+                    <img
+                      src="../assets/icon/chevron-down.svg"
+                      alt="drop down"
+                    />
+                  </button>
+                </div>
+                <p class="card-text">Ancient mosque with elaborate carvings</p>
+                <!-- CHANGE COLLAPSEEXAMPLE VALUE -->
+                <div class="collapse" id="collapseExample12">
+                  <!-- CHANGE CARD TEXT -->
+                  <p class="card-text">
+                    Thazhathangady Juma Masjid is a mosque situated in
+                    Thazhathangady, one of the Heritage Zones of Kerala, India,
+                    near the town of Kottayam. It is one of the oldest mosques
+                    in India and is more than 1000 years old. It is famous for
+                    its richness of architecture, wood carvings and the beauty.
+                    Southern half of it is demolished and extended with iron
+                    pillars, aluminium sheets and minars in 2012. This mosque is
+                    situated on the banks of the Meenachil river. Thazhathangady
+                    Juma Masjid is also called as the "Taj Juma Masjid". The
+                    ancestors of this Masjid came and settled in Kottayam, from
+                    different parts of Kerala. The Muslims who lived here played
+                    an active role in Freedom Struggle and other National
+                    Movements. This mosque is known for its intricate wooden
+                    carvings and architecture. As per the latest update
+                    Thazhathangady Juma Masjid in Kerala's Kotayam has opened
+                    its doors for women devotees. "Muslim women in the right
+                    attire can enter the mosque only on the two days, April 24
+                    and May 8, as decided by the committee," said Moulavi
+                    Sirajjuddeen Hasni, the chief imam. Wikipedia
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- START OF CARD -->
+            <div class="card mb-3 mt-3">
+              <!-- CHANGE IMAGE SRC-->
+              <img
+                src="../assets/travelDestination/Kottayam/kottayam_PanachikkaduDakshina.jpg"
+                class="card-img-top"
+                alt="Panachikkadu Dakshina"
+              />
+              <div class="card-body rounded">
+                <!-- CHANGE CARD TEXT -->
+                <h5 class="card-title">Panachikkadu Dakshina</h5>
+                <div class="d-flex mb-2">
+                  
+                  <p class="h6 ms-2 my-auto me-auto"></p>
+                  <!-- CHANGE COLLAPSEEXAMPLE VALUE TWICE-->
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-circle"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseExample13"
+                    aria-expanded="true"
+                    aria-controls="collapseExample13"
+                  >
+                    <img
+                      src="../assets/icon/chevron-down.svg"
+                      alt="drop down"
+                    />
+                  </button>
+                </div>
+                <p class="card-text"></p>
+                <!-- CHANGE COLLAPSEEXAMPLE VALUE -->
+                <div class="collapse" id="collapseExample13">
+                  <!-- CHANGE CARD TEXT -->
+                  <p class="card-text">
+                    The Panachikkadu Temple, also known as the Dakshina
+                    Mookambika Temple, is a Hindu temple dedicated to the
+                    goddess Saraswati. The temple is located in the southern
+                    region of the Indian Peninsula, in Panachikkad in Kottayam
+                    District, Kerala, India. It is one of the most prominent
+                    Saraswati temples for devotees in Kerala. But, the main
+                    deity of the temple is Lord Vishnu, who was installed long
+                    before Goddess Saraswati. Still the temple is known as
+                    Saraswati temple, due to the popularity of the Goddess.
+                    There are sub-shrines for Lord Shiva, Lord Ganapathi, Lord
+                    Ayyappan, Snake deities and Panachikkattu Yakshi inside the
+                    temple. Wikipedia
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- END OF CARD -->
+          </div>
+          <!-- END OF COLUMN 1 -->
+
+          <!-- START OF COLUMN 2 -->
+
+          <div class="card-columns">
+            <!-- START OF CARD -->
+            <div class="card mb-3 mt-3">
+              <!-- CHANGE IMAGE SRC-->
+              <img
+                src="../assets/travelDestination/Kottayam/kottayam_StMarysOrthodox.jpg"
+                class="card-img-top"
+                alt="St. Mary's Orthodox"
+              />
+              <div class="card-body rounded">
+                <!-- CHANGE CARD TEXT -->
+                <h5 class="card-title">St. Mary's Orthodox</h5>
+                <div class="d-flex mb-2">
+                 
+                  <p class="h6 ms-2 my-auto me-auto"></p>
+                  <!-- CHANGE COLLAPSEEXAMPLE VALUE TWICE-->
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-circle"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseExample21"
+                    aria-expanded="true"
+                    aria-controls="collapseExample21"
+                  >
+                    <img
+                      src="../assets/icon/chevron-down.svg"
+                      alt="drop down"
+                    />
+                  </button>
+                </div>
+                <!-- CHANGE CARD TEXT -->
+                <p class="card-text"></p>
+                <!-- CHANGE COLLAPSEEXAMPLE VALUE -->
+                <div class="collapse" id="collapseExample21">
+                  <!-- CHANGE CARD TEXT -->
+                  <p class="card-text">
+                    St. Mary’s Orthodox Syrian Church, Kottayam, commonly known
+                    as Kottayam Cheriapally, is a Malankara Orthodox Syrian
+                    Church located in Kottayam, Kerala, India. Cheriapally
+                    meaning ‘small church’, whose appearance contradicts its
+                    name, is one of the oldest and well-preserved churches in
+                    the state. Cheriapally is located on the way to Kumarakom
+                    from Kottayam. The church is dedicated to mother Mary. It is
+                    that architecture, which is as old as 440 years and has
+                    retained its old world charm today as well even after so
+                    much of environmental changes. The length and breadth of the
+                    church is constructed with innovative paintings, mural, and
+                    architecture. Wikipedia
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- END OF CARD -->
+
+            <!-- START OF CARD -->
+            <div class="card mb-3 mt-3">
+              <!-- CHANGE IMAGE SRC-->
+              <img
+                src="../assets/travelDestination/Kottayam/kottayam_MozartArtGallery.jpg"
+                class="card-img-top"
+                alt="Mozart Art Gallery"
+              />
+              <div class="card-body rounded">
+                <!-- CHANGE CARD TEXT -->
+                <h5 class="card-title">Mozart Art Gallery</h5>
+                <div class="d-flex mb-2">
+                  
+                  <p class="h6 ms-2 my-auto me-auto"></p>
+                  <!-- CHANGE COLLAPSEEXAMPLE VALUE TWICE-->
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-circle"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseExample22"
+                    aria-expanded="true"
+                    aria-controls="collapseExample22"
+                  >
+                    <img
+                      src="../assets/icon/chevron-down.svg"
+                      alt="drop down"
+                    />
+                  </button>
+                </div>
+                <!-- CHANGE CARD TEXT -->
+                <p class="card-text">Art and art museum</p>
+                <!-- CHANGE COLLAPSEEXAMPLE VALUE -->
+                <div class="collapse" id="collapseExample22">
+                  <!-- CHANGE CARD TEXT -->
+                  <p class="card-text">Art and art museum</p>
+                </div>
+              </div>
+            </div>
+            <!-- END OF CARD -->
+
+            <!-- START OF CARD -->
+            <div class="card mb-3 mt-3">
+              <!-- CHANGE IMAGE SRC-->
+              <img
+                src="../assets/travelDestination/Kottayam/kottayam_VimalagiriImmaculate.jpg"
+                class="card-img-top"
+                alt="Vimalagiri Immaculate"
+              />
+              <div class="card-body rounded">
+                <!-- CHANGE CARD TEXT -->
+                <h5 class="card-title">Vimalagiri Immaculate</h5>
+                <div class="d-flex mb-2">
+                  
+                  <p class="h6 ms-2 my-auto me-auto"></p>
+                  <!-- CHANGE COLLAPSEEXAMPLE VALUE TWICE-->
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-circle"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseExample23"
+                    aria-expanded="true"
+                    aria-controls="collapseExample23"
+                  >
+                    <img
+                      src="../assets/icon/chevron-down.svg"
+                      alt="drop down"
+                    />
+                  </button>
+                </div>
+                <!-- CHANGE CARD TEXT -->
+                <p class="card-text">
+                  Cathedral, architecture and history</p>
+                  <!-- CHANGE COLLAPSEEXAMPLE VALUE -->
+                </p>
+
+                <div class="collapse" id="collapseExample23">
+                  <!-- CHANGE CARD TEXT -->
+                  <p class="card-text">
+                    The Immaculate Heart of Mary Cathedral, also known as the
+                    Vimalagiri Cathedral or as Angathattu Palli located at
+                    Kottayam is the cathedral of the Diocese of Vijayapuram.
+                    Built in the Gothic architectural style, the church has a
+                    172-foot tall tower which is one of the tallest church
+                    towers in Kerala. The foundation stone of Vimalagiri Church
+                    was laid in the year 1956. The construction of the imposing
+                    edifice was finished in the year 1964. Its feast celebrated
+                    on 8 December every year, the feast of the Immaculate Heart
+                    of Mary. Wikipedia
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- END OF CARD -->
+          </div>
+          <!-- END OF COLUMN 2 -->
+
+          <!-- START OF COLUMN 3 -->
+
+          <div class="card-columns">
+            <!-- START OF CARD -->
+            <div class="card mb-3 mt-3">
+              <!-- CHANGE IMAGE SRC-->
+              <img
+                src="../assets/travelDestination/Kottayam/kottayam_StMarysForaneChurch.jpg"
+                class="card-img-top"
+                alt="St. Mary's Forane Church"
+              />
+              <div class="card-body rounded">
+                <!-- CHANGE CARD TEXT -->
+                <h5 class="card-title">St. Mary's Forane Church</h5>
+                <div class="d-flex mb-2">
+                  
+                  <p class="h6 ms-2 my-auto me-auto"></p>
+                  <!-- CHANGE COLLAPSEEXAMPLE VALUE TWICE-->
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-circle"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseExample31"
+                    aria-expanded="true"
+                    aria-controls="collapseExample31"
+                  >
+                    <img
+                      src="../assets/icon/chevron-down.svg"
+                      alt="drop down"
+                    />
+                  </button>
+                </div>
+                <!-- CHANGE CARD TEXT -->
+                <p class="card-text"></p>
+                <!-- CHANGE COLLAPSEEXAMPLE VALUE -->
+                <div class="collapse" id="collapseExample31">
+                  <!-- CHANGE CARD TEXT -->
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <!-- END OF CARD -->
+
+            <!-- START OF CARD -->
+            <div class="card mb-3 mt-3">
+              <!-- CHANGE IMAGE SRC-->
+              <img
+                src="../assets/travelDestination/Kottayam/kottayam_StGeorgeOrthodox.jpg"
+                class="card-img-top"
+                alt="St. George Orthodox"
+              />
+              <div class="card-body rounded">
+                <!-- CHANGE CARD TEXT -->
+                <h5 class="card-title">St. George Orthodox</h5>
+                <div class="d-flex mb-2">
+                  
+                  <p class="h6 ms-2 my-auto me-auto"></p>
+                  <!-- CHANGE COLLAPSEEXAMPLE VALUE TWICE-->
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-circle"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseExample32"
+                    aria-expanded="true"
+                    aria-controls="collapseExample32"
+                  >
+                    <img
+                      src="../assets/icon/chevron-down.svg"
+                      alt="drop down"
+                    />
+                  </button>
+                </div>
+                <!-- CHANGE CARD TEXT -->
+                <p class="card-text">Church</p>
+                <!-- CHANGE COLLAPSEEXAMPLE VALUE -->
+                <div class="collapse" id="collapseExample32">
+                  <!-- CHANGE CARD TEXT -->
+                  <p class="card-text">
+                    St. George Orthodox Valiya Pally is a prominent church that
+                    belongs to the Malankara Orthodox Syrian Church. This church
+                    is situated beside the Puthuppally - Changanassery road
+                    about a kilometre from the Puthuppally junction, on the
+                    eastern bank of the Kodoor river. The surrounding areas of
+                    church are panoramic and very beautiful. The old church was
+                    well preserved church with wall murals dating back to
+                    ancient times. These unique wall murals have been painted
+                    using vegetable dyes. Wikipedia
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- END OF CARD        -->
+
+            <!-- START OF CARD -->
+            <div class="card mb-3 mt-3">
+              <!-- CHANGE IMAGE SRC-->
+              <img
+                src="../assets/travelDestination/Kottayam/kottayam_ThaliyilMahadeva.jpg"
+                class="card-img-top"
+                alt="Thaliyil Mahadeva"
+              />
+              <div class="card-body rounded">
+                <!-- CHANGE CARD TEXT -->
+                <h5 class="card-title">Thaliyil Mahadeva</h5>
+                <div class="d-flex mb-2">
+                  
+                  <p class="h6 ms-2 my-auto me-auto"></p>
+                  <!-- CHANGE COLLAPSEEXAMPLE VALUE TWICE-->
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-circle"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseExample33"
+                    aria-expanded="true"
+                    aria-controls="collapseExample33"
+                  >
+                    <img
+                      src="../assets/icon/chevron-down.svg"
+                      alt="drop down"
+                    />
+                  </button>
+                </div>
+                <!-- CHANGE CARD TEXT -->
+                <p class="card-text"></p>
+                <!-- CHANGE COLLAPSEEXAMPLE VALUE -->
+                <div class="collapse" id="collapseExample33">
+                  <!-- CHANGE CARD TEXT -->
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- END OF CARD        -->
+          </div>
+          <!-- END OF COLUMN 3 -->
+        </div>
+      </div>
+    </main>
+    <!-- END OF MAIN  -->
+
+    <footer>
+      <div class="container-fluid">
+        <div class="row bg-dark pb-5">
+          <div class="col-lg-4 d-flex justify-content-center">
+            <img
+              class="w-50"
+              src="../assets/keralaTourismLogo.png"
+              alt="logo"
+            />
+          </div>
+
+          <div class="col-lg-2 me-5">
+            <div class="text-center">
+              <div>
+                <p class="h5 text-secondary mt-3">Social</p>
+              </div>
+            </div>
+            <hr class="bg-secondary" />
+            <div>
+              <a href="#" class="text-decoration-none">
+                <img
+                  id="facebookId"
+                  src="../assets/icon/facebook.svg"
+                  alt="facebook logo"
+                />
+                <label for="facebookId"> facebook</label>
+              </a>
+            </div>
+
+            <div>
+              <a href="#" class="text-decoration-none">
+                <label for="instagramId">
+                  <img
+                    id="instagramId"
+                    src="../assets/icon/instagram.svg"
+                    alt="instagram logo"
+                  />
+                  instagram</label
+                ></a
+              >
+            </div>
+
+            <div>
+              <a href="#" class="text-decoration-none">
+                <label for="twitterId">
+                  <img
+                    id="twitterId"
+                    src="../assets/icon/twitter.svg"
+                    alt="twitter logo"
+                  />
+                  twitter</label
+                ></a
+              >
+            </div>
+
+            <div>
+              <a href="#" class="text-decoration-none">
+                <label for="youtubeId">
+                  <img
+                    id="youtubeId"
+                    src="../assets/icon/youtube.svg"
+                    alt="youtube logo"
+                  />
+                  youtube</label
+                ></a
+              >
+            </div>
+            <hr class="bg-secondary" />
+          </div>
+
+          <!-- END OF FIRST COLUMN  -->
+
+          <div class="col-lg-2 bg-dark me-auto">
+            <div class="justify-content-center">
+              <div class="text-center">
+                <div>
+                  <p class="h5 text-secondary mt-3">Information</p>
+                </div>
+              </div>
+              <hr class="bg-secondary" />
+              <div>
+                <a href="#" class="text-decoration-none">
+                  <label>Contact Us </label>
+                </a>
+              </div>
+              <div>
+                <a href="#" class="text-decoration-none">
+                  <label>Tourist Places in Kerala </label>
+                </a>
+              </div>
+              <div>
+                <a href="#" class="text-decoration-none">
+                  <label>Terms & Conditions </label>
+                </a>
+              </div>
+              <div>
+                <a href="#" class="text-decoration-none">
+                  <label>Privacy Policy </label>
+                </a>
+              </div>
+              <div>
+                <a href="#" class="text-decoration-none">
+                  <label>Contact Us </label>
+                </a>
+              </div>
+            </div>
+            <hr class="bg-secondary" />
+          </div>
+
+          <!-- END OF INFORMATION COLUMN  -->
+          <div
+            class="col-lg-3 d-flex d-flex-column align-items-center bg-dark me-5"
+          >
+            <div class="justify-content-center mx-auto">
+              <div class="mb-3" style="width: 350px">
+                <input
+                  type="email"
+                  class="form-control rounded-3"
+                  id="inputEmail4"
+                />
+              </div>
+
+              <button
+                type="submit"
+                class="btn btn-success ms-5 w-75 rounded-pill"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- END OF ROW 1 -->
+
+        <div class="row ps-5 pe-5 bg-dark text-white">
+          <div class="col d-flex justify-content-between">
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Idukki</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="district.css" />
+  </head>
+  <body>
+    <header>
+
+      <nav class="navbar navbar-expand-md navbar-dark bd-navbar bg-success">
+        <div class="container-fluid position-relative">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#bdNavbar"
+            aria-controls="bdNavbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="navbar-collapse collapse" id="bdNavbar">
+            <ul
+              class="navbar-nav flex-row flex-wrap bd-navbar-nav pt-2 py-md-0"
+            >
+              <li class="nav-item col-6 col-md-auto">
+                <a class="nav-link p-2" aria-current="page" href="../index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item col-6 col-md-auto">
+                <a class="nav-link p-2 " href="../destination.html"
+                  >Destination</a
+                >
+              </li>
+              <li class="nav-item col-6 col-md-auto">
+                <a class="nav-link p-2" href="../login.html">Log In</a>
+              </li>
+              <li class="nav-item col-6 col-md-auto">
+                <a class="nav-link p-2" href="../signup.html">Sign Up</a>
+              </li>
+              <li class="nav-item col-7 col-md-auto">
+                <a class="nav-link p-2 active" href="#">Idukki</a>
+              </li>
+            </ul>
+            <hr class="d-md-none text-white-50" />
+            <ul class="navbar-nav flex-row flex-wrap ms-md-auto">
+              <li class="nav-item col-6 col-md-auto">
+                <a class="nav-link p-2" href="#" target="_blank" rel="noopener">
+                  <img src="../assets/icon/facebook.svg" alt="facebook logo" />
+                  <small class="d-md-none ms-2">Facebook</small>
+                </a>
+              </li>
+              <li class="nav-item col-6 col-md-auto">
+                <a class="nav-link p-2" href="#" target="_blank" rel="noopener">
+                  <img src="../assets/icon/twitter.svg" alt="twitter logo" />
+                  <small class="d-md-none ms-2">Twitter</small>
+                </a>
+              </li>
+              <li class="nav-item col-6 col-md-auto">
+                <a class="nav-link p-2" href="#" target="_blank" rel="noopener">
+                  <img
+                    src="../assets/icon/instagram.svg"
+                    alt="instagram logo"
+                  />
+                  <small class="d-md-none ms-2">Instagram</small>
+                </a>
+              </li>
+              <li class="nav-item col-6 col-md-auto">
+                <a class="nav-link p-2" href="#" target="_blank" rel="noopener">
+                  <img src="../assets/icon/youtube.svg" alt="youtube logo" />
+                  <small class="d-md-none ms-2">Youtube</small>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container-fluid g-0">
+        <div class="row-fluid">
+          <div class="col-12">
+            <section class="banner bg-dark position-relative">
+              <div
+                id="carouselExampleDark"
+                class="carousel carousel-dark slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                </div>
+                <div class="carousel-inner">
+                  <div
+                    class="carousel-item mycarousel-zoom active"
+                    data-bs-interval="3000"
+                  >
+                    <img
+                      src="../assets/travelDestination/Idukki/idukki_Carousel1.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                    <div class="carousel-caption d-md-block text-white">
+                      <h2 class="text-end">Idukki</h2>
+                    </div>
+                  </div>
+                  <div
+                    class="carousel-item mycarousel-zoom"
+                    data-bs-interval="3000"
+                  >
+                    <img
+                      src="../assets/travelDestination/Idukki/idukki_Carousel2.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+
+                    <div class="carousel-caption d-md-block text-white">
+                      <h2 class="text-end">Idukki</h2>
+                    </div>
+                  </div>
+                  <div
+                    class="carousel-item mycarousel-zoom"
+                    data-bs-interval="3000"
+                  >
+                    <img
+                      src="../assets/travelDestination/Idukki/idukki_Carousel3.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+
+                    <div class="carousel-caption d-md-block text-white">
+                      <h2 class="text-end">Idukki</h2>
+                    </div>
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleDark"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleDark"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+              <img
+                class="position-absolute top-0 start-0 bg-white rounded"
+                style="width: 100px"
+                src="../assets/keralaTourismLogo.png"
+                alt="logo"
+              />
+            </section>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="mainClass">
+      <div class="container mt-3">
+        <div class="row bg-warning text-center">
+          <div class="col">
+            <h2>Top Sights</h2>
+            <h6>Based on traveller visits and local insights</h6>
+          </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+
+          <div class="card-columns">
+            <div class="card mb-3 mt-3">
+              <img
+                src="../assets/travelDestination/Idukki/idukki_EravikulamNationalPark.jpg"
+                class="card-img-top"
+                alt="Eravikulam National Park"
+              />
+              <div class="card-body rounded">
+                <h5 class="card-title">Eravikulam National Park</h5>
+                <div class="d-flex mb-2">
+
+                  <p class="h6 ms-2 my-auto me-auto"></p>
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-circle"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseExample11"
+                    aria-expanded="true"
+                    aria-controls="collapseExample11"
+                  >
+                    <img
+                      src="../assets/icon/chevron-down.svg"
+                      alt="drop down"
+                    />
+                  </button>
+                </div>
+                <p class="card-text">Views & wild goats in a lush setting</p>
+                <div class="collapse" id="collapseExample11">
+                  <p class="card-text">
+                    Eravikulam National Park is a 97 km² national park located
+                    along the Western Ghats in the Idukki district of Kerala in
+                    India. Situated between 10º05'N and 10º20' north, and 77º0'
+                    and 77º10' east, it is the first national park in Kerala.
+                    Eravikulam National Park is administered by the Kerala
+                    Department of Forests and Wildlife, Munnar Wildlife
+                    Division, which also runs the nearby Mathikettan Shola
+                    National Park, Anamudi Shola National Park, Pambadum Shola
+                    National Park, Chinnar Wildlife Sanctuary and the
+                    Kurinjimala Sanctuary. Wikipedia
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 mt-3">
+              <img
+                src="../assets/travelDestination/Idukki/idukki_Anamudi.jpg"
+                class="card-img-top"
+                alt="Anamudi"
+              />
+              <div class="card-body rounded">
+                <h5 class="card-title">Anamudi</h5>
+                <div class="d-flex mb-2">
+                  
+                  <p class="h6 ms-2 my-auto me-auto"></p>
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-circle"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseExample12"
+                    aria-expanded="true"
+                    aria-controls="collapseExample12"
+                  >
+                    <img
+                      src="../assets/icon/chevron-down.svg"
+                      alt="drop down"
+                    />
+                  </button>
+                </div>
+                <p class="card-text">Landmark peak with hiking & elephants</p>
+                <div class="collapse" id="collapseExample12">
+                  <p class="card-text">
+                    Anamudi is a mountain located in the Indian state of Kerala.
+                    It is the highest peak in the Western Ghats and South India,
+                    at an elevation of 2,695 metres and a topographic prominence
+                    of 2,479 metres. It lies on the border of Devikulam Taluk,
+                    Idukki district and Kothamangalam Taluk, Ernakulam district.
+                    The name Anamudi literally translates to "elephant's head" a
+                    reference to the resemblance of the mountain to an
+                    elephant's head. Anamudi Shola National Park was declared as
+                    National Park in December 2003 as per Notification No.
+                    12876/F2 2003/F & WLD dated 14.12.2003 of Government of
+                    Kerala. Anamudi is the highest mountain in peninsular India
+                    as well as the largest mountain in Kerala. Meanwhile, the
+                    highest independent mountain in Kerala is the Cheriyam
+                    mountain in Mankada in Malappuram district. Cheriyam
+                    mountain is located at an elevation of 613 m above sea
+                    level. The first recorded ascent of Anamudi was by General
+                    Douglas Hamilton of the Madras Army on 4 May 1862, but it is
+                    likely that there had been earlier ascents by local people.
+                    Anamudi peak is one of only three ultra prominent peaks in
+                    South India. Wikipedia
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card mb-3 mt-3">
+              <img
+                src="../assets/travelDestination/Idukki/idukki_MattupettyDam.jpg"
+                class="card-img-top"
+                alt="Mattupetty Dam"
+              />
+              <div class="card-body rounded">
+                <h5 class="card-title">Mattupetty Dam</h5>
+                <div class="d-flex mb-2">
+                  
+                  <p class="h6 ms-2 my-auto me-auto"></p>
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-circle"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseExample13"
+                    aria-expanded="true"
+                    aria-controls="collapseExample13"
+                  >
+                    <img
+                      src="../assets/icon/chevron-down.svg"
+                      alt="drop down"
+                    />
+                  </button>
+                </div>
+                <p class="card-text">Dam in a picturesque area with animals</p>
+                <div class="collapse" id="collapseExample13">
+                  <p class="card-text">
+                    Mattupetty Dam, near Munnar in Idukki District, is a storage
+                    Concrete Gravity dam built in the mountains of Kerala, India
+                    to conserve water for hydroelectricity. It has been a vital
+                    source of power yielding along with other such dams, huge
+                    revenue to the states. The large amount of perennially
+                    available water allows wild animals and birds to flourish.
+                    However salinity caused by irrigation and water-logging are
+                    of concern to environmentalists. Munnar is located near the
+                    confluence of the mountain streams of Muthirappuzha River,
+                    Chanduvarai River and Kundale River. See:map The reservoir
+                    is also known to be one of the visiting grounds of elephants
+                    in the region. Wikipedia
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="card-columns">
+            <div class="card mb-3 mt-3">
+              <img
+                src="../assets/travelDestination/Idukki/idukki_CheeyapparaWaterfalls.jpg"
+                class="card-img-top"
+                alt="Cheeyappara Waterfalls"
+              />
+              <div class="card-body rounded">
+                <h5 class="card-title">Cheeyappara Waterfalls</h5>
+                <div class="d-flex mb-2">
+                  
+                  <p class="h6 ms-2 my-auto me-auto"></p>
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-circle"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseExample21"
+                    aria-expanded="true"
+                    aria-controls="collapseExample21"
+                  >
+                    <img
+                      src="../assets/icon/chevron-down.svg"
+                      alt="drop down"
+                    />
+                  </button>
+                </div>
+                <p class="card-text">Lush trekking route with a waterfall</p>
+                <div class="collapse" id="collapseExample21">
+                  <p class="card-text">
+                    The Cheeyappara Waterfall is on the Kochi - Madurai Highway,
+                    between Neriamangalam and Adimali. It is in Idukki district,
+                    Kerala, India. The Cheeyappara Waterfall cascades down in
+                    seven steps. This is also a great place for trekking.
+                    Wikipedia
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 mt-3">
+              <img
+                src="../assets/travelDestination/Idukki/idukki_TeaMuseum.jpg"
+                class="card-img-top"
+                alt="Tea Museum"
+              />
+              <div class="card-body rounded">
+                <h5 class="card-title">Tea Museum</h5>
+                <div class="d-flex mb-2">
+                  
+                  <p class="h6 ms-2 my-auto me-auto"></p>
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-circle"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseExample22"
+                    aria-expanded="true"
+                    aria-controls="collapseExample22"
+                  >
+                    <img
+                      src="../assets/icon/chevron-down.svg"
+                      alt="drop down"
+                    />
+                  </button>
+                </div>
+                <p class="card-text">Tea-related exhibits & memorabilia</p>
+                <div class="collapse" id="collapseExample22">
+                  <p class="card-text">
+                    The KDHP Tea Museum is an industry and history museum
+                    situated in Munnar, a town in the Idukki district of Kerala
+                    in South India. Tata Tea Museum is its official name, but
+                    it's also known as Nalluthanni Estate where it is located,
+                    or Kannan Devan Hills Plantation Tea Museum. Wikipedia
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 mt-3">
+              <img
+                src="../assets/travelDestination/Idukki/idukki_LakkamWaterfalls.jpg"
+                class="card-img-top"
+                alt="Lakkam Waterfalls"
+              />
+              <div class="card-body rounded">
+                <h5 class="card-title">Lakkam Waterfalls</h5>
+                <div class="d-flex mb-2">
+                  
+                  <p class="h6 ms-2 my-auto me-auto"></p>
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-circle"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseExample23"
+                    aria-expanded="true"
+                    aria-controls="collapseExample23"
+                  >
+                    <img
+                      src="../assets/icon/chevron-down.svg"
+                      alt="drop down"
+                    />
+                  </button>
+                </div>
+                <p class="card-text">Cascading waterfall in the jungle</p>
+                <div class="collapse" id="collapseExample23">
+                  <p class="card-text">
+                    Lakkom Water Falls, also known as Lakkam Waterfalls, is a
+                    tourist attraction located near Marayoor in the Idukki
+                    district of Kerala. These falls are part of the Eravikulam
+                    stream, which is a part of Eravikulam National Park and is
+                    one of the major tributaries of the Pambar River. Wikipedia
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-columns">
+            <div class="card mb-3 mt-3">
+              <img
+                src="../assets/travelDestination/Idukki/idukki_PothameduViewPoint.jpg"
+                class="card-img-top"
+                alt="Pothamedu View Point"
+              />
+              <div class="card-body rounded">
+                <h5 class="card-title">Pothamedu View Point</h5>
+                <div class="d-flex mb-2">
+                  
+                  <p class="h6 ms-2 my-auto me-auto"></p>
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-circle"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseExample31"
+                    aria-expanded="true"
+                    aria-controls="collapseExample31"
+                  >
+                    <img
+                      src="../assets/icon/chevron-down.svg"
+                      alt="drop down"
+                    />
+                  </button>
+                </div>
+                <p class="card-text">Valley views & a tea plantation</p>
+                <div class="collapse" id="collapseExample31">
+                  <p class="card-text">Valley views & a tea plantation</p>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 mt-3">
+              <img
+                src="../assets/travelDestination/Idukki/idukki_Meesapulimala.jpg"
+                class="card-img-top"
+                alt="Meesapulimala"
+              />
+              <div class="card-body rounded">
+                <h5 class="card-title">Meesapulimala</h5>
+                <div class="d-flex mb-2">
+                  
+                  <p class="h6 ms-2 my-auto me-auto"></p>
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-circle"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseExample32"
+                    aria-expanded="true"
+                    aria-controls="collapseExample32"
+                  >
+                    <img
+                      src="../assets/icon/chevron-down.svg"
+                      alt="drop down"
+                    />
+                  </button>
+                </div>
+                <p class="card-text">Mountain for picturesque hikes</p>
+                <div class="collapse" id="collapseExample32">
+                  <p class="card-text">
+                    Meesapulimala is the peak next south of the second highest
+                    peak of the Western ghats on Idukki District and Theni
+                    District border. Its peak is 2,640 metres above sea level.
+                    The name derives from its appearance from the southwest of a
+                    tiger with prominent whiskers. It is located in between the
+                    Anaimalai Hills and Palani Hills near Suryanelli around 20km
+                    away from Munnar. Kolukkumalai tea estate, Top Station and
+                    Tipadamala is also nearby. Treks to the peak via Rhodo
+                    Valley can be organized through the Kerala Forest
+                    Development Corporation in Munnar. Meesapulimala trekking
+                    booking is limited and the trekking path from Kolukkumalai
+                    to Meesapulimala is highly restricted. There is a great
+                    chance of sighting wildlife including Nilgiri Thar, Sambar
+                    Deer, Wild Gaur, Wild Dogs and even the Sloth Bear. The
+                    duration totally depends on your physical fitness. It will
+                    take about 7 to 9 hours to complete the full route.
+                    Wikipedia
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card mb-3 mt-3">
+              <img
+                src="../assets/travelDestination/Idukki/idukki_IdukkiDam.jpg"
+                class="card-img-top"
+                alt="Idukki Dam"
+              />
+              <div class="card-body rounded">
+                <h5 class="card-title">Idukki Dam</h5>
+                <div class="d-flex mb-2">
+                  <p class="h6 ms-2 my-auto me-auto"></p>
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-circle"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseExample33"
+                    aria-expanded="true"
+                    aria-controls="collapseExample33"
+                  >
+                    <img
+                      src="../assets/icon/chevron-down.svg"
+                      alt="drop down"
+                    />
+                  </button>
+                </div>
+                <p class="card-text">Legendary hydroelectric arch dam</p>
+                <div class="collapse" id="collapseExample33">
+                  <p class="card-text">
+                    The Idukki Dam is a double curvature Arch dam constructed
+                    across the Periyar River in a narrow gorge between two
+                    granite hills locally known as Kuravan and Kurathi in
+                    Kerala, India. At 168.91 metres, it is one of the highest
+                    arch dams in Asia. It is constructed and owned by the Kerala
+                    State Electricity Board. It supports a 780 MW hydroelectric
+                    power station in Moolamattom, which started generating power
+                    on 4 October 1975. The dam type is a concrete, double
+                    curvature parabolic, thin arc dam. This dam was constructed
+                    along with two other dams at Cheruthoni and Kulamavu.
+                    Together, the three dams have created an artificial lake
+                    that is 60 km² in area. The stored water is used to produce
+                    electricity at the Moolamattom Power house, which is located
+                    inside nearby rocky caves. The Government of Canada aided in
+                    the building of the dam with long-term loans and grants.
+                    Wikipedia
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container-fluid">
+        <div class="row bg-dark pb-5">
+          <div class="col-lg-4 d-flex justify-content-center">
+            <img
+              class="w-50"
+              src="../assets/keralaTourismLogo.png"
+              alt="logo"
+            />
+          </div>
+
+          <div class="col-lg-2 me-5">
+            <div class="text-center">
+              <div>
+                <p class="h5 text-secondary mt-3">Social</p>
+              </div>
+            </div>
+            <hr class="bg-secondary" />
+            <div>
+              <a href="#" class="text-decoration-none">
+                <img
+                  id="facebookId"
+                  src="../assets/icon/facebook.svg"
+                  alt="facebook logo"
+                />
+                <label for="facebookId"> facebook</label>
+              </a>
+            </div>
+
+            <div>
+              <a href="#" class="text-decoration-none">
+                <label for="instagramId">
+                  <img
+                    id="instagramId"
+                    src="../assets/icon/instagram.svg"
+                    alt="instagram logo"
+                  />
+                  instagram</label
+                ></a
+              >
+            </div>
+
+            <div>
+              <a href="#" class="text-decoration-none">
+                <label for="twitterId">
+                  <img
+                    id="twitterId"
+                    src="../assets/icon/twitter.svg"
+                    alt="twitter logo"
+                  />
+                  twitter</label
+                ></a
+              >
+            </div>
+
+            <div>
+              <a href="#" class="text-decoration-none">
+                <label for="youtubeId">
+                  <img
+                    id="youtubeId"
+                    src="../assets/icon/youtube.svg"
+                    alt="youtube logo"
+                  />
+                  youtube</label
+                ></a
+              >
+            </div>
+            <hr class="bg-secondary" />
+          </div>
+
+
+          <div class="col-lg-2 bg-dark me-auto">
+            <div class="justify-content-center">
+              <div class="text-center">
+                <div>
+                  <p class="h5 text-secondary mt-3">Information</p>
+                </div>
+              </div>
+              <hr class="bg-secondary" />
+              <div>
+                <a href="#" class="text-decoration-none">
+                  <label>Contact Us </label>
+                </a>
+              </div>
+              <div>
+                <a href="#" class="text-decoration-none">
+                  <label>Tourist Places in Kerala </label>
+                </a>
+              </div>
+              <div>
+                <a href="#" class="text-decoration-none">
+                  <label>Terms & Conditions </label>
+                </a>
+              </div>
+              <div>
+                <a href="#" class="text-decoration-none">
+                  <label>Privacy Policy </label>
+                </a>
+              </div>
+              <div>
+                <a href="#" class="text-decoration-none">
+                  <label>Contact Us </label>
+                </a>
+              </div>
+            </div>
+            <hr class="bg-secondary" />
+          </div>
+
+          <div
+            class="col-lg-3 d-flex d-flex-column align-items-center bg-dark me-5"
+          >
+            <div class="justify-content-center mx-auto">
+              <div class="mb-3" style="width: 350px">
+                <input
+                  type="email"
+                  class="form-control rounded-3"
+                  id="inputEmail4"
+                />
+              </div>
+
+              <button
+                type="submit"
+                class="btn btn-success ms-5 w-75 rounded-pill"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="row ps-5 pe-5 bg-dark text-white">
+          <div class="col d-flex justify-content-between">
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alappuzha</title>
+    
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="district.css" />
+  </head>
+  <body>
+    <header>
+
+      <nav class="navbar navbar-expand-md navbar-dark bd-navbar bg-success">
+        <div class="container-fluid position-relative">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#bdNavbar"
+            aria-controls="bdNavbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="navbar-collapse collapse" id="bdNavbar">
+            <ul
+              class="navbar-nav flex-row flex-wrap bd-navbar-nav pt-2 py-md-0"
+            >
+              <li class="nav-item col-6 col-md-auto">
+                <a class="nav-link p-2" aria-current="page" href="../index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item col-6 col-md-auto">
+                <a class="nav-link p-2 " href="../destination.html"
+                  >Destination</a
+                >
+              </li>
+              <li class="nav-item col-6 col-md-auto">
+                <a class="nav-link p-2" href="../login.html">Log In</a>
+              </li>
+              <li class="nav-item col-6 col-md-auto">
+                <a class="nav-link p-2" href="../signup.html">Sign Up</a>
+              </li>
+              <li class="nav-item col-7 col-md-auto">
+                <a class="nav-link p-2 active" href="#">Alappuzha</a>
+              </li>
+            </ul>
+            <hr class="d-md-none text-white-50" />
+            <ul class="navbar-nav flex-row flex-wrap ms-md-auto">
+              <li class="nav-item col-6 col-md-auto">
+                <a class="nav-link p-2" href="#" target="_blank" rel="noopener">
+                  <img src="../assets/icon/facebook.svg" alt="facebook logo" />
+                  <small class="d-md-none ms-2">Facebook</small>
+                </a>
+              </li>
+              <li class="nav-item col-6 col-md-auto">
+                <a class="nav-link p-2" href="#" target="_blank" rel="noopener">
+                  <img src="../assets/icon/twitter.svg" alt="twitter logo" />
+                  <small class="d-md-none ms-2">Twitter</small>
+                </a>
+              </li>
+              <li class="nav-item col-6 col-md-auto">
+                <a class="nav-link p-2" href="#" target="_blank" rel="noopener">
+                  <img
+                    src="../assets/icon/instagram.svg"
+                    alt="instagram logo"
+                  />
+                  <small class="d-md-none ms-2">Instagram</small>
+                </a>
+              </li>
+              <li class="nav-item col-6 col-md-auto">
+                <a class="nav-link p-2" href="#" target="_blank" rel="noopener">
+                  <img src="../assets/icon/youtube.svg" alt="youtube logo" />
+                  <small class="d-md-none ms-2">Youtube</small>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container-fluid g-0">
+        <div class="row-fluid">
+          <div class="col-12">
+            <section class="banner bg-dark position-relative">
+              
+              <div
+                id="carouselExampleDark"
+                class="carousel carousel-dark slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                </div>
+                <div class="carousel-inner">
+                  <div
+                    class="carousel-item mycarousel-zoom active"
+                    data-bs-interval="3000"
+                  >
+                    
+                    <img
+                      src="../assets/travelDestination/Alappuzha/alappuzha_carousel1.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                    <div class="carousel-caption d-md-block text-white">
+                      <h2 class="text-end">Alappuzha</h2>
+                    </div>
+                  </div>
+                  <div
+                    class="carousel-item mycarousel-zoom"
+                    data-bs-interval="3000"
+                  >
+                    
+                    <img
+                      src="../assets/travelDestination/Alappuzha/alappuzha_carousel2.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+
+                    <div class="carousel-caption d-md-block text-white">
+                      <h2 class="text-end">Alappuzha</h2>
+                    </div>
+                  </div>
+                  <div
+                    class="carousel-item mycarousel-zoom"
+                    data-bs-interval="3000"
+                  >
+                    
+                    <img
+                      src="../assets/travelDestination/Alappuzha/alappuzha_carausel3.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+
+                    <div class="carousel-caption d-md-block text-white">
+                      <h2 class="text-end">Alappuzha</h2>
+                    </div>
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleDark"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleDark"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+              <img
+                class="position-absolute top-0 start-0 bg-white rounded"
+                style="width: 100px"
+                src="../assets/keralaTourismLogo.png"
+                alt="logo"
+              />
+            </section>
+            
+          </div>
+         
+        </div>
+       
+      </div>
+      
+    </header>
+    
+    <main class="mainClass">
+      <div class="container mt-3">
+        <div class="row bg-warning text-center">
+          <div class="col">
+            <h2>Top Sights</h2>
+            <h6>Based on traveller visits and local insights</h6>
+          </div>
+        </div>
+        
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          
+
+          <div class="card-columns">
+            
+            <div class="card mb-3 mt-3">
+              
+              <img
+                src="../assets/travelDestination/Alappuzha/alappuzha_marariBeach.jpg"
+                class="card-img-top"
+                alt="Marari beach"
+              />
+              <div class="card-body rounded">
+                
+                <h5 class="card-title">Marari beach</h5>
+                <div class="d-flex mb-2">
+                  <p class="h6 ms-1 me-2 my-auto"></p>
+                  
+                  <p class="h6 ms-2 my-auto me-auto"></p>
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-circle"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseExample11"
+                    aria-expanded="true"
+                    aria-controls="collapseExample11"
+                  >
+                    <img
+                      src="../assets/icon/chevron-down.svg"
+                      alt="drop down"
+                    />
+                  </button>
+                </div>
+                <p class="card-text">Spacious, sandy beach with waves</p>
+                <div class="collapse" id="collapseExample11">
+                  <p class="card-text">
+                    Marari Beach is a beach in Alappuzha District of Kerala,
+                    India, 11 km from Alappuzha town. Wikipedia
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="card mb-3 mt-3">
+
+              <img
+                src="../assets/travelDestination/Alappuzha/alappuzha_AlappuzhaBeach.jpg"
+                class="card-img-top"
+                alt="Alappuzha Beach"
+              />
+              <div class="card-body rounded">
+                
+                <h5 class="card-title">Alappuzha Beach</h5>
+                <div class="d-flex mb-2">
+                  
+                  <p class="h6 ms-2 my-auto me-auto"></p>
+                  
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-circle"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseExample12"
+                    aria-expanded="true"
+                    aria-controls="collapseExample12"
+                  >
+                    <img
+                      src="../assets/icon/chevron-down.svg"
+                      alt="drop down"
+                    />
+                  </button>
+                </div>
+                <p class="card-text">Sandy beach with houseboat tours</p>
+                
+                <div class="collapse" id="collapseExample12">
+                  
+                  <p class="card-text">
+                    Alappuzha Beach is a beach in Alappuzha town and a tourist
+                    attraction in Kerala, India. Beach has an old pier which
+                    extend to sea is over 150 years old. Alappuzha beach host
+                    many events annually like Alappuzha beach festival, Sand art
+                    festival and many more. Wikipedia
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="card mb-3 mt-3">
+              
+              <img
+                src="../assets/travelDestination/Alappuzha/alappuzha_pathiramanalIsland.jpg"
+                class="card-img-top"
+                alt="Pathiramanal Island"
+              />
+              <div class="card-body rounded">
+                
+                <h5 class="card-title">Pathiramanal Island</h5>
+                <div class="d-flex mb-2">
+                  <p class="h6 ms-2 my-auto me-auto"></p>
+                  
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-circle"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseExample13"
+                    aria-expanded="true"
+                    aria-controls="collapseExample13"
+                  >
+                    <img
+                      src="../assets/icon/chevron-down.svg"
+                      alt="drop down"
+                    />
+                  </button>
+                </div>
+                <p class="card-text">Serene setting for nature exploration</p>
+               
+                <div class="collapse" id="collapseExample13">
+                  
+                  <p class="card-text">
+                    Pathiramanal is a small island inMuhamma panchayat of
+                    Alappuzha district. The name Pathiramanal means 'midnight
+                    sand'. The scenic beauty of both sides of the lake as well
+                    as that of the island is mind blowing. It is home to many
+                    rare varieties of migratory birds from different parts of
+                    the world. Wikipedia
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            
+          </div>
+
+          <div class="card-columns">
+            
+            <div class="card mb-3 mt-3">
+              
+              <img
+                src="../assets/travelDestination/Alappuzha/alappuzha_sreeKrishnaSwamyTemple.jpg"
+                class="card-img-top"
+                alt="Sree Krishna Swamy Temple"
+              />
+              <div class="card-body rounded">
+               
+                <h5 class="card-title">Sree Krishna Swamy Temple</h5>
+                <div class="d-flex mb-2">
+                  <p class="h6 ms-2 my-auto me-auto"></p>
+                 
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-circle"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseExample21"
+                    aria-expanded="true"
+                    aria-controls="collapseExample21"
+                  >
+                    <img
+                      src="../assets/icon/chevron-down.svg"
+                      alt="drop down"
+                    />
+                  </button>
+                </div>
+                
+                <p class="card-text">13th-century Hindu temple with services</p>
+                
+                <div class="collapse" id="collapseExample21">
+                  
+                  <p class="card-text">
+                    Ambalappuzha Sree Krishna Swamy Temple is an Indian Hindu
+                    temple dedicated to Krishna at Ambalappuzha in Alappuzha
+                    district of Kerala. The temple is believed to have been
+                    built during 15th century AD by the local ruler
+                    Chembakasserry Pooradam Thirunal-Devanarayanan Thampuran. It
+                    is one of the seven greatest Vaishnava temples in
+                    Travancore. The idol at Ambalapuzha is likened to
+                    Parthasarthi form of Vishnu, holding a whip in his right
+                    hand and a conch in his left. During the raids of Tipu
+                    Sultan in 1789, the idol of Sri Krishna from the Guruvayoor
+                    Temple was brought to the Ambalappuzha Temple for safe
+                    keeping for 12 years. Payasam, a sweet pudding made of rice
+                    and milk is served in the temple and is believed that the
+                    Lord Guruvayoorappan visits the temple daily to accept the
+                    offering. Wikipedia
+                  </p>
+                </div>
+              </div>
+            </div>
+           
+            <div class="card mb-3 mt-3">
+              
+              <img
+                src="../assets/travelDestination/Alappuzha/alappuzha_krishnapuramPalace.jpg"
+                class="card-img-top"
+                alt="Krishnapuram Palace"
+              />
+              <div class="card-body rounded">
+               
+                <h5 class="card-title">Krishnapuram Palace</h5>
+                <div class="d-flex mb-2">
+                  <p class="h6 ms-1 me-2 my-auto">4.3</p>
+                  <p class="h6 ms-2 my-auto me-auto"></p>
+                  
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-circle"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseExample22"
+                    aria-expanded="true"
+                    aria-controls="collapseExample22"
+                  >
+                    <img
+                      src="../assets/icon/chevron-down.svg"
+                      alt="drop down"
+                    />
+                  </button>
+                </div>
+                
+                <p class="card-text">
+                  Artifacts & art in a Kerala-style palace
+                </p>
+                
+                <div class="collapse" id="collapseExample22">
+                  
+                  <p class="card-text">
+                    The Krishnapuram Palace is a palace and museum located in
+                    Kayamkulam near Alappuzha in Alappuzha district, Kerala in
+                    southwestern India. It was built in the 18th century by
+                    Anizham Thirunal Marthanda Varma, the Travancore kingdom. It
+                    is built in the architectural style of Kerala with gabled
+                    roof, narrow corridor and dormer windows, near the
+                    Krishnaswamy Temple at Krishnapuram. The palace is
+                    maintained by the Kerala State Department of Archaeology and
+                    contains exhibits that belonged to the Palace and its former
+                    occupant, the Travancore Maharaja Marthanda Varma. It is
+                    also famous for a large pond within the palace complex. It
+                    is also said that an underground escape route runs from the
+                    bottom of the pond as a possible escape route from enemies.
+                    Among the many Kerala-style paintings seen in the palace, a
+                    distinctly placed mural painting is titled "Gajendra
+                    Moksham" of 154 square feet size, which is said to be the
+                    largest such find in Kerala. It is placed on the western end
+                    of the ground floor of the palace. The double edged
+                    Kayamkulam Vaal is also on display here. The palace houses,
+                    in its courtyard, one of the four statues of Buddha found in
+                    Alappuzha District. Wikipedia
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="card mb-3 mt-3">
+              
+              <img
+                src="../assets/travelDestination/Alappuzha/alappuzha_alleppeyLightHouse.jpg"
+                class="card-img-top"
+                alt="Alleppey Lighthouse"
+              />
+              <div class="card-body rounded">
+                
+                <h5 class="card-title">Alleppey Lighthouse</h5>
+                <div class="d-flex mb-2">
+                  <p class="h6 ms-2 my-auto me-auto"></p>
+                  
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-circle"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseExample23"
+                    aria-expanded="true"
+                    aria-controls="collapseExample23"
+                  >
+                    <img
+                      src="../assets/icon/chevron-down.svg"
+                      alt="drop down"
+                    />
+                  </button>
+                </div>
+                
+                <p class="card-text">Striped beacon with a small museum</p>
+               
+                <div class="collapse" id="collapseExample23">
+                  
+                  <p class="card-text">
+                    The Alappuzha Lighthouse is situated in the coastal town of
+                    Alappuzha, Kerala. It was built in 1862 and is a major
+                    tourist attraction. Visitors are allowed between 1500 hours
+                    and 1630 hours on every weekday at an admission fee of 20
+                    rupees for Indian citizens and 50 rupees for foreigners.
+                    This is the first of its kind in the Arabian sea coast of
+                    Kerala. Wikipedia
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+         
+          <div class="card-columns">
+            
+            <div class="card mb-3 mt-3">
+              
+              <img
+                src="../assets/travelDestination/Alappuzha/alappuzha_punnamadaLake.jpg"
+                class="card-img-top"
+                alt="Punnamada Lake"
+              />
+              <div class="card-body rounded">
+               
+                <h5 class="card-title">Punnamada Lake</h5>
+                <div class="d-flex mb-2">
+                  <p class="h6 ms-2 my-auto me-auto"></p>
+                  
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-circle"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseExample31"
+                    aria-expanded="true"
+                    aria-controls="collapseExample31"
+                  >
+                    <img
+                      src="../assets/icon/chevron-down.svg"
+                      alt="drop down"
+                    />
+                  </button>
+                </div>
+                
+                <p class="card-text">Backwater lake with houseboats</p>
+                
+                <div class="collapse" id="collapseExample31">
+                  
+                  <p class="card-text">Backwater lake with houseboats</p>
+                </div>
+              </div>
+            </div>
+           
+            <div class="card mb-3 mt-3">
+              
+              <img
+                src="../assets/travelDestination/Alappuzha/alappuzha_reviKarunakaran.jpg"
+                class="card-img-top"
+                alt="Revi Karunakaran"
+              />
+              <div class="card-body rounded">
+                
+                <h5 class="card-title">Revi Karunakaran</h5>
+                <div class="d-flex mb-2">
+                
+                  <p class="h6 ms-2 my-auto me-auto"></p>
+                  
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-circle"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseExample32"
+                    aria-expanded="true"
+                    aria-controls="collapseExample32"
+                  >
+                    <img
+                      src="../assets/icon/chevron-down.svg"
+                      alt="drop down"
+                    />
+                  </button>
+                </div>
+                
+                <p class="card-text">
+                  Intimate museum for painting & sculpture
+                </p>
+               
+                <div class="collapse" id="collapseExample32">
+                  
+                  <p class="card-text">
+                    Revi Karunakaran Memorial Museum is a privately owned museum
+                    located at Alappuzha, Kerala, India that displays decorative
+                    art and artifacts, including a large private collection of
+                    Swarovski crystals and ivory. Revi Karunakaran was the
+                    architect of the modernized coir industry of Kerala. After
+                    Revi's death in 2003, his wife Betty Karan built this museum
+                    in his memory. The objects displayed at this museum were
+                    collected by his family over three generations and feature
+                    unique artistic pieces from across the world. Wikipedia
+                  </p>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="card mb-3 mt-3">
+              
+              <img
+                src="../assets/travelDestination/Alappuzha/alappuzha_kalloorkadStMarysBasilica.jpg"
+                class="card-img-top"
+                alt="Kalloorkad St. Mary's Basilica"
+              />
+              <div class="card-body rounded">
+                
+                <h5 class="card-title">Kalloorkad St. Mary's Basilica</h5>
+                <div class="d-flex mb-2">
+                  
+                  <p class="h6 ms-2 my-auto me-auto"></p>
+                  
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-circle"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseExample33"
+                    aria-expanded="true"
+                    aria-controls="collapseExample33"
+                  >
+                    <img
+                      src="../assets/icon/chevron-down.svg"
+                      alt="drop down"
+                    />
+                  </button>
+                </div>
+                
+                <p class="card-text">Catholic church with Syrian links</p>
+                
+                <div class="collapse" id="collapseExample33">
+                 
+                  <p class="card-text">
+                    Champakulam Kalloorkadu St. Mary's Basilica is an ancient
+                    Christian Church in Kerala. It belongs to the Syro-Malabar
+                    Church under the Archeparchy of Changanacherry. It is a
+                    Forane church, with several parishes under it. Wikipedia
+                  </p>
+                </div>
+              </div>
+            </div>
+
+           
+          </div>
+          
+        </div>
+      </div>
+    </main>
+   
+
+    <footer>
+      <div class="container-fluid">
+        <div class="row bg-dark pb-5">
+          <div class="col-lg-4 d-flex justify-content-center">
+            <img
+              class="w-50"
+              src="../assets/keralaTourismLogo.png"
+              alt="logo"
+            />
+          </div>
+
+          <div class="col-lg-2 me-5">
+            <div class="text-center">
+              <div>
+                <p class="h5 text-secondary mt-3">Social</p>
+              </div>
+            </div>
+            <hr class="bg-secondary" />
+            <div>
+              <a href="#" class="text-decoration-none">
+                <img
+                  id="facebookId"
+                  src="../assets/icon/facebook.svg"
+                  alt="facebook logo"
+                />
+                <label for="facebookId"> facebook</label>
+              </a>
+            </div>
+
+            <div>
+              <a href="#" class="text-decoration-none">
+                <label for="instagramId">
+                  <img
+                    id="instagramId"
+                    src="../assets/icon/instagram.svg"
+                    alt="instagram logo"
+                  />
+                  instagram</label
+                ></a
+              >
+            </div>
+
+            <div>
+              <a href="#" class="text-decoration-none">
+                <label for="twitterId">
+                  <img
+                    id="twitterId"
+                    src="../assets/icon/twitter.svg"
+                    alt="twitter logo"
+                  />
+                  twitter</label
+                ></a
+              >
+            </div>
+
+            <div>
+              <a href="#" class="text-decoration-none">
+                <label for="youtubeId">
+                  <img
+                    id="youtubeId"
+                    src="../assets/icon/youtube.svg"
+                    alt="youtube logo"
+                  />
+                  youtube</label
+                ></a
+              >
+            </div>
+            <hr class="bg-secondary" />
+          </div>
+
+         
+          <div class="col-lg-2 bg-dark me-auto">
+            <div class="justify-content-center">
+              <div class="text-center">
+                <div>
+                  <p class="h5 text-secondary mt-3">Information</p>
+                </div>
+              </div>
+              <hr class="bg-secondary" />
+              <div>
+                <a href="#" class="text-decoration-none">
+                  <label>Contact Us </label>
+                </a>
+              </div>
+              <div>
+                <a href="#" class="text-decoration-none">
+                  <label>Tourist Places in Kerala </label>
+                </a>
+              </div>
+              <div>
+                <a href="#" class="text-decoration-none">
+                  <label>Terms & Conditions </label>
+                </a>
+              </div>
+              <div>
+                <a href="#" class="text-decoration-none">
+                  <label>Privacy Policy </label>
+                </a>
+              </div>
+              <div>
+                <a href="#" class="text-decoration-none">
+                  <label>Contact Us </label>
+                </a>
+              </div>
+            </div>
+            <hr class="bg-secondary" />
+          </div>
+
+          
+          <div
+            class="col-lg-3 d-flex d-flex-column align-items-center bg-dark me-5"
+          >
+            <div class="justify-content-center mx-auto">
+              <div class="mb-3" style="width: 350px">
+                <input
+                  type="email"
+                  class="form-control rounded-3"
+                  id="inputEmail4"
+                />
+              </div>
+
+              <button
+                type="submit"
+                class="btn btn-success ms-5 w-75 rounded-pill"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="row ps-5 pe-5 bg-dark text-white">
+          <div class="col d-flex justify-content-between">
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
