@@ -24,7 +24,7 @@ function validate(){
         }
         emailErrEle.hidden = true;
         passwordErrEle.hidden = false;
-        passwordErrEle.innerHTML = "Incorrect password length"
+        passwordErrEle.innerText = "Incorrect password length"
         return false;
     }else{
         passwordErrEle.hidden = true;
