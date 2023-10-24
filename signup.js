@@ -4,7 +4,7 @@ mydata = [
       email: "vaishnavivaishu5678@gmail.com",
       password: "12345",
     },
-  ];
+  ]; 
   //-----------------------------------------------
   const userNameEle = document.getElementById("inputUsername4");
   const phoneNumberEle = document.getElementById("inputPhone4");
@@ -74,7 +74,7 @@ mydata = [
     if (parentEle.querySelector("img") == null) {
       var node = document.createElement("IMG");
   
-      node.setAttribute("src", "assets/icon/check-circle.svg");
+      node.setAttribute("src", "../KeralaTourism/assets/icon/check-circle.svg");
       node.setAttribute("alt", "Correct");
       node.setAttribute("style", "width: 2rem;");
       node.setAttribute("id", "check");
@@ -93,7 +93,7 @@ mydata = [
   function xCircle(parentEle) {
     if (parentEle.querySelector("img") == null) {
       var node = document.createElement("IMG");
-      node.setAttribute("src", "assets/icon/x-circle.svg");
+      node.setAttribute("src", "../KeralaTourism/assets/icon/x-circle.svg");
       node.setAttribute("alt", "InCorrect");
       node.setAttribute("style", "width: 2rem;");
       node.setAttribute("id", "xcircle");
@@ -211,19 +211,19 @@ mydata = [
   
     switch (strength) {
       case 2:
-        commonErrEle.innerHTML = "<p class='text-center text-danger'><span class='text-info'>Medium</span>. Password must contain 1 uppercase 1 lowercase and 1 number</p>";
+        commonErrEle.innerHTML = "<p class='text-center text-danger'><span class='text-warning'>Medium</span>. Password must contain 1 uppercase 1 lowercase and 1 number</p>";
         progressBar(progressEle, 66.66, "bg-warning");
         progressEle.firstElementChild.textContent = "Medium";
         //progressEle.innerHTML = "<p class='text-center text-danger'>Medium</p>";
         break;
       case 3:
-        commonErrEle.innerHTML = "<p class='text-center text-danger'>Strong</p>";
+        commonErrEle.innerHTML = "<p class='text-center text-success'>Strong</p>";
         progressBar(progressEle, 100, "bg-success");
         progressEle.firstElementChild.textContent = "Strong";
         break;
       default:
-        commonErrEle.innerHTML = "<p class='text-center text-danger'><span class='text-warning '>Weak</span>. Password must contain 1 uppercase 1 lowercase and 1 number</p>";
-        progressBar(progressEle, 33.33, "bg-danger");
+        commonErrEle.innerHTML = "<p class='text-center text-danger'><span class='text-secondary'>Weak</span>. Password must contain 1 uppercase 1 lowercase and 1 number</p>";
+        progressBar(progressEle, 33.33, "bg-secondary");
         progressEle.firstElementChild.textContent = "Weak";
         break;
     }
@@ -258,7 +258,7 @@ mydata = [
       return true;
     } else {
       commonErrEle.innerHTML =
-        "<p class='text-center text-danger'>password mismatch</p>";
+        "<p class='text-center text-danger'>Not Same pass</p>";
       xCircle(rePasswordParentEle);
       return false;
     }
