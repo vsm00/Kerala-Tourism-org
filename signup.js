@@ -212,7 +212,7 @@ mydata = [
     switch (strength) {
       case 2:
         commonErrEle.innerHTML = "<p class='text-center text-danger'><span class='text-info'>Medium</span>. Password must contain 1 uppercase 1 lowercase and 1 number</p>";
-        progressBar(progressEle, 66.66, "bg-info");
+        progressBar(progressEle, 66.66, "bg-warning");
         progressEle.firstElementChild.textContent = "Medium";
         //progressEle.innerHTML = "<p class='text-center text-danger'>Medium</p>";
         break;
@@ -223,7 +223,7 @@ mydata = [
         break;
       default:
         commonErrEle.innerHTML = "<p class='text-center text-danger'><span class='text-warning '>Weak</span>. Password must contain 1 uppercase 1 lowercase and 1 number</p>";
-        progressBar(progressEle, 33.33, "bg-warning");
+        progressBar(progressEle, 33.33, "bg-danger");
         progressEle.firstElementChild.textContent = "Weak";
         break;
     }
