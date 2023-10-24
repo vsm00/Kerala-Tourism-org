@@ -5,7 +5,6 @@ mydata = [
       password: "12345",
     },
   ];
-  
   //-----------------------------------------------
   const userNameEle = document.getElementById("inputUsername4");
   const phoneNumberEle = document.getElementById("inputPhone4");
@@ -75,7 +74,7 @@ mydata = [
     if (parentEle.querySelector("img") == null) {
       var node = document.createElement("IMG");
   
-      node.setAttribute("src", "../KeralaTourism/assets/icon/check-circle.svg");
+      node.setAttribute("src", "assets/icon/check-circle.svg");
       node.setAttribute("alt", "Correct");
       node.setAttribute("style", "width: 2rem;");
       node.setAttribute("id", "check");
@@ -94,7 +93,7 @@ mydata = [
   function xCircle(parentEle) {
     if (parentEle.querySelector("img") == null) {
       var node = document.createElement("IMG");
-      node.setAttribute("src", "../KeralaTourism/assets/icon/x-circle.svg");
+      node.setAttribute("src", "assets/icon/x-circle.svg");
       node.setAttribute("alt", "InCorrect");
       node.setAttribute("style", "width: 2rem;");
       node.setAttribute("id", "xcircle");
@@ -259,7 +258,7 @@ mydata = [
       return true;
     } else {
       commonErrEle.innerHTML =
-        "<p class='text-center text-danger'>Not Same pass</p>";
+        "<p class='text-center text-danger'>password mismatch</p>";
       xCircle(rePasswordParentEle);
       return false;
     }
