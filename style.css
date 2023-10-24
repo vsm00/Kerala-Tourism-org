@@ -35,5 +35,5 @@
 .heading{
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-top: 40%;
+    position: absolute;top: 0;
 }
